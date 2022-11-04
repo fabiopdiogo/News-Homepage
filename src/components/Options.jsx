@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 const Option = styled.div`
-  color: blue;
 `
 
 function Options ({href,children}){

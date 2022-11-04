@@ -3,7 +3,7 @@ import theme from '../src/theme'
 
 const GlobalStyle = createGlobalStyle`
   *{
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin: 0;
   }
   body{

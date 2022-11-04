@@ -3,7 +3,10 @@ import Options from "./Options"
 
 const StyledDiv = styled.div`
   display: flex;  
-  justify-content: space-between;
+  justify-content: space-between;   
+  max-width:100%; 
+  background-color: blue;
+
 `
 const OptionsDiv = styled.div`
   display: flex;

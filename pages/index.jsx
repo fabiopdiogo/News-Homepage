@@ -1,34 +1,38 @@
 import styled from "styled-components"
 
 import Header from "../src/components/Header"
-import Options from "../src/components/Options"
+import TextColumn from "../src/components/TextColumn"
 import Text1 from "../src/components/Text1"
 
 const StyleDiv = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 25px;  
+  max-height: 90vh;
 `
 const Div1 = styled.div`
   display: flex;
-  width:100%;
-  height: 50vh;
-  gap: 30px;
+  max-width:100%;
+  background-color: red;
+  padding: 0;
+  margin:0;
 `
 const Image = styled.img`
-    max-width:100%;
-    max-height: auto;    
-    background-color: navy;
+  max-width:100%;
+  max-height: auto;    
+  background-color: navy;
 `
 const ContDiv1 = styled.div`
   display: flex;
   flex-direction: column;
-  width: auto;
+  max-width: 70%;
   gap:30px;
 `
 const ContDiv2 = styled.div`
+  display: flex;
+  flex-direction: column;
   background-color: navy;
-  width: 100%;
+  max-width: 30%;
 `
 
 const Div2 = styled.div`
@@ -45,10 +49,9 @@ function HomePage(){
             <Text1 />
           </ContDiv1>      
           <ContDiv2>
-
+            <TextColumn />
           </ContDiv2>    
-        </Div1>  
-       
+        </Div1>         
       </StyleDiv> 
   )
 }
