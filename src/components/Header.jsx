@@ -4,12 +4,11 @@ import Options from "./Options"
 const StyledDiv = styled.div`
   display: flex;  
   justify-content: space-between;   
-  max-width:100%; 
-  background-color: blue;
-
+  max-width:100%;
 `
 const OptionsDiv = styled.div`
   display: flex;
+  gap:40px;
 `
 const Logo = styled.img`
   max-width: 100px;

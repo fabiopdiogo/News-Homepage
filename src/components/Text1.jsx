@@ -2,27 +2,28 @@ import styled from "styled-components"
 
 const Div1 = styled.div`
   display: flex;
-  background-color: navy;
 `
 const DivButton = styled.div`
   display: flex;
   flex-direction: column;  
-  width: 100%;
-  background-color: orange;
+  justify-content: space-between;    
+  padding-left: 50px;
 `
-
 const BoldText = styled.p`
-  font-weight: bold;
+  font-weight: 700;
   font-size: 60px;
   max-width: 50%;
-  background-color: orange;
 `
 const Text = styled.p`
   font-weight: bold;
+  color:hsl(240, 100%, 5%);
 `
 const Button = styled.button`
   padding: 15px;
   max-width: 150px;
+  border:none;
+  background-color: hsl(5, 85%, 63%);
+  color: white;
 `
 
 function Text1(){
