@@ -3,6 +3,7 @@
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
 # News-Homepage
+Link para aceso na web (deploy):https://news-homepage-drab.vercel.app/
 
 # Como surgiu a ideia do projeto?
 
